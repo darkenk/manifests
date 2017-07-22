@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="origin" fetch="ssh://git@github.com/darkenk/" />
+  <default revision="master" remote="origin" />
+
+  <project path="bbb_tests.git"
+           name="bbb_tests" revision="dev2"/>
+
+</manifest>
