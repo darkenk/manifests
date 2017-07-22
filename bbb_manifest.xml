@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote name="origin" fetch="ssh://git@github.com/darkenk/" />
+  <remote name="origin" fetch="../" />
   <default revision="master" remote="origin" />
 
-  <project path="bbb_tests.git"
-           name="bbb_tests" revision="dev2"/>
+  <project name="bbb_tests" revision="dev2" />
+  <project name="wayland-kms" />
+  <project name="libgbm" />
+  <project name="libegl" />
+  <project name="dk_utils" />
 
 </manifest>
